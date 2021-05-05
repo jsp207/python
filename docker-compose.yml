@@ -6,8 +6,6 @@ services:
     command: python manage.py runserver 0:8000
     ports:
       - "9999:8000"
-    volumes:
-      - .:/web
     depends_on:
       - db
   db:
