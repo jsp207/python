@@ -25,7 +25,7 @@ SECRET_KEY = '-p@jx8crh##*u=lw3h*y5=%$4tg^j@k56sdosi-cp&9y&*#kco'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*','amadeus.webnori.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'amadeus.webnori.com']
 
 # Application definition
 
